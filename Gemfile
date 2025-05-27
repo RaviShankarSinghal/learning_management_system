@@ -77,3 +77,4 @@ group :test do
 end
 gem 'font-awesome-sass', "~> 6.5.1"
 gem 'devise', "~> 4.9.0"
+gem "ruby-vips"
