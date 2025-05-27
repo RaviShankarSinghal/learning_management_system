@@ -17,6 +17,7 @@ gem "puma", "~> 5.0"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
+gem 'concurrent-ruby', '1.3.4' 
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -74,3 +75,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+gem 'font-awesome-sass', "~> 6.5.1"
+gem 'devise', "~> 4.9.0"
+gem "ruby-vips"
